@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: csdemo 
-    buildpack: nodejs_buildpack
+  - name: csdemoapp
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack 
     memory: 512m
     command: node index.js
